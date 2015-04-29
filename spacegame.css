@@ -1,0 +1,35 @@
+#player {
+  position: absolute;
+  z-index:2;
+  border: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color:black;
+}
+
+.background {
+  z-index:0;
+  background-image: url("https://f.smtcs.rocks/brendant/stars2.png");
+  position:absolute;
+  top:0;
+  left:0;
+  width:20000px;
+  height:20000px;
+}
+.button {
+  background-color:black;
+  text-shadow: 2px 2px 2px grey;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.asteroid {
+  position: absolute;
+  z-index:1;
+}

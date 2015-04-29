@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Game!</title>
+  <link rel="stylesheet" href="spacegame.css"/>
+</head>
+<body>
+  <div id="display"></div>
+  <script src="spacegame.js" type="text/javascript"></script>
+</body>
+</html>

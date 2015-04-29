@@ -1,0 +1,62 @@
+#player1{
+    z-index: 100;
+    background-color:red;
+    position: absolute;
+}
+#player2{
+    z-index: 100;
+    position:absolute;
+    background-color:blue;
+}
+#player1health{
+  background-color:red;
+  text-align: left;
+}
+#player2health{
+  background-color:blue;
+  text-align: right;
+}
+.score{
+  position:absolute;
+  font-size:40px;
+  top:630px;
+  z-index:300;
+  height:40px;
+  width:150px;
+}
+#player1score{
+  text-align:left;
+  color:red;
+}
+#player2score{
+  text-align:right;
+  color:blue;
+  left: 450px;
+}
+.healthbar {
+  position:absolute;
+  height:20px;
+  z-index: 200;
+  border: solid 2px black;
+  top:600px;
+  font-family:sans-serif;
+}
+.ammocounter{
+  position:absolute;
+  height:20px;
+  top:600px;
+  width:50px;
+  font-family:sans-serif;
+}
+body {
+    overflow: hidden;
+}
+
+.bullet {
+  position:absolute;
+  width:10px;
+}
+
+.tile {
+  position:absolute;
+}

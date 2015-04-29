@@ -1,0 +1,1 @@
+cpu,100,cpu,90,cpu,80,cpu,70,cpu,60,cpu,50,cpu,40,cpu,30,cpu,20,cpu,10

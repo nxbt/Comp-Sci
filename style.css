@@ -1,0 +1,34 @@
+* {
+    background-color: #000066;
+    color: white;
+    font-family: arial;
+    font-size: 1.1em;
+}
+
+.box {
+    background: #3333CC;
+    width: 100%;
+    padding: 0.5%;
+}
+
+
+.normButton {
+    outline-color: #3333CC;
+    border: 0;
+    background: #000066;
+}
+
+
+.normButton:hover {
+    background: #16166E;
+}
+
+
+#bodyContent {
+    display: none;
+}
+
+
+h3 {
+    font-size: 1.5em;
+}

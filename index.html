@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel='stylesheet' href='style.css'/>
+        
+        <title>YAW - Yet Another Website</title>
+</head>
+<body onload="pageChange(1)">
+    <div id="pageElements">
+        <table class="box">
+            <tr>
+                <td>
+                    <span style="font-size: 2.1em">Yet Another Website</span><br/>
+                    <button onclick='pageChange(1)' id="btnMe" class="normButton">Home</button>
+                    <button onclick="pageChange(2)" class="normButton">About HTML</button>
+                    <button onclick="pageChange(4)" class ="normButton">Hardware</button>
+                    <button onclick="pageChange(3)" class="normButton">About me</button> <br>
+                    <button class="normButton"><a href=spacegame.html>Space Game</a></button>
+                    <button class="normButton"><a href=mouseGameIndex.html>Mouse Game</a></button>
+                    <button class="normButton"><a href=shooter.html>Shooter Game</a></button>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <table class="box">
+            <tr>
+                <td id="main1"></td>
+            </tr>
+        </table>
+    </div> <!--creates page elements-->
+    <div id="bodyContent">
+        <div id="1">
+            <h3>Welcome!</h3>
+            <p>Welcome to yet another website, a place of cool things and happy times. I'm Brendan Thompson, and I learned how to make this website thanks to the computer science class that I am taking. In just the first week, we learned enough <i>HTML</i> and <i>CSS</i> to make a basic website, like this one. This classs is offered as an "expadition" at Summit Shasta, a school in Daily City. At Shasta, we do all of our work on our computers, and can study subjects at our own pace.</p><br/>
+                <img height=300px src="http://upload.wikimedia.org/wikipedia/commons/7/7a/SNES-Controller.jpg"/>
+                <img src="http://upload.wikimedia.org/wikipedia/commons/2/22/MtShasta_aerial.JPG" style="width 300px; height: 300px"/>
+                <img src="http://blogs.msdn.com/cfs-filesystemfile.ashx/__key/communityserver-components-imagefileviewer/communityserver-blogs-components-weblogfiles-00-00-00-33-48/4274.CodeIssue.png_2D00_550x0.png" style="height: 300px"/>
+                <br/>
+                <h3>What do we do?</h3>
+                <p>In this class, we are learning many different kinds of languages, such as <i>HTML</i>, <i>Javascrpit</i>, and <i>CSS</i>, and using them to program our own website. This website is a product of the knowledge I learned in this class! By the end of the year, I hope to have an understanding of <i>HTML</i>, <i>CSS</i> and <i>Javascript</i>. I also want to be able to make simple web based games using <i>HTML5</i>.</p>
+                <h3>So what's here?</h3>
+                <p>On this website, I will be recording what I learn in class and demontrating my growing knowledge of <i>HTML</i>, <i>CSS</i>, and <i>Javascript</i>. There wil be articles on <i>HTML</i>, computer hardware, and myself. Throughout the year, this website will grow and grow, and the formating and tricks will become better and better. I can't wait to see what this site looks like at the end of the year!</p>
+        </div> <!--Homepage-->
+        <div id="2">
+            <h3>What is <i>HTML?</i></h3>
+            <p><i>HTML</i>, or <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage, is a text formatting language designed for writting webpages. Every single page on the internet is written in <i>HTML</i>, including this one! With <i>HTML</i>, you can easily format a page using just text on your keyboard! To make a webpage, all you need to do is enter <i>HTML</i> into a text document on your computer, and then open it up in your internet browser. A brower's job is to translate <i>HTML</i> into formated text and acess these types of pages on the internet. If you want other people to acess your webpage, you need to upload your text document to a server, and then people need to open the domain.</p>
+            <h3><i>HTML</i> Tags</h3>
+            <p><i>HTML</i> utilizes 'tags' which are used to format your webpage. tags are surrounded in greater than and less than signs. (these things: < >) after you open a tag, you add text after it, then close the tag by adding another tag after your text that has a slash right inside the greater than sign. Tags let you format your page in a variety of ways. for example, the 'p' tag creates a paragraph, that will display text and then carry over to a new line when you end it. The h1 - h6 tags let you create headers, which are bigger than normal text and are also bolded.</p>
+        <h3>Some tags</h3>
+        <ul>
+            <li><i>p</i>- creates a paragraph</li>
+            <li><i>b</i>- creates bolded text</li>
+            <li><i>table</i>- creates a table</li>
+            <li><i>tr</i>- creates a row in a table</li>
+            <li><i>td</i>- creates a box in a table row</li>
+        </ul>
+        <h3>Attributes</h3>
+        <p>Attributes are pieces of text that go inside of the opening tag. Attributes allow you to change how the text inside the tag works. For example, the style tag allows you to change the color of the text to red by typing: style="color:red" or, you can assign a tag a class with: class="className" where className is the name of your class. There's not much use of class with just HTML though, to use the class attribute, you need to use <i>CSS</i>.</p>
+        <h3>Some Attributes</h3>
+        <ul>
+            <li><i>style</i>- changes the text style</li>
+            <li><i>class</i>- gives the tag a class</li>
+            <li><i>id</i>- gives the tag an id</li>
+            <li><i>title</i>- displays a title above text</li>
+        </ul>
+        <h3>What is <i>CSS</i>?</h3>
+        <p><i>CSS</i>, which stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets, is used to give more control over your <i>HTML</i> websites. With <i>CSS</i>,  you can change the color of text and backgrounds, the font size for certain tags, the type of font, and much more. If this is sounding like the style attribute, that's because the style attribute is actually inline <i>CSS</i>! What's better about writing <i>CSS</i> in its own document is that, for example, you can change all of the p tags to have red text and just change the text color once! You can also change the styling of all text that has a certain class, if you want more control. With CSS, you can quickly and easily change the style of any text on your webpage.</p>
+        </div> <!--AboutHTML-->
+        <div id="3">
+            <h3>Who am I?</h3>
+            <p>I name is Brendan Thompson, and I am a programmer and student. I program in my free time, so and enjoy playing video games both new and old. When I grow up and need a job, I want to start my own video game company, and make my own video games. I've started my own video game design club where we meet 3 thimes a week to and work together to make a video game.</p>
+            <h3>My Top 3 Favorite Video Games</h3>
+            <ol>
+                <li>Cave Story</li>
+                <li>Illusion of Gaia</li>
+                <li>Legend of Zelda</li>
+            </ol>
+            <p>One of the greatest things about Cave Story is that it's free! You can legally download it <a href="http://www.cavestory.org/download/cave-story.php">here</a>, but you also need to get the English patch, unless you speak Japanese. To play Legend of Zelda or Illusion of Gaia, you'll need a NES or SNES respectively. Unless you want to use other slightly less legal methods.</p>
+            <h3>Why do I Program?</h3>
+            <p>I enjoy programming because it's a way of making whatever I want. With a bit of code, I can create my own worlds, that people can come in to, and play in. I'm mainly interested in programming so that I can program games, but I can also code simple simulations to quickly solve equations. But most of all, I find programing fun, and the results .</p>
+            <p></p>
+        </div> <!--AboutMe-->
+        <div id="4">
+            <h3>Computer Hardware</h3>
+            <p>There are many components required for a computer to run. Every computer needs a motherboard, CPU, RAM, a hard drive, and a power supply. Without these components, a computer cannot run. Most computers also have a mouse, keyboard, and monitor, but servers and some other computers don't need them to be used.</p>
+            <h3>The Motherboard</h3>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/d/dd/MicroATX_Motherboard_with_AMD_Athlon_Processor_2_Digon3.jpg" style="width:30%; float:left; padding-right:10px;"/>
+            <p>The motherboard connects all of the other components of the computer together. Every other component needs to be directly connected to the motherboard to be a part of the computer. It can be though of like a backbone, or a heart. The actually connections between the motherboard and other components are called buses. If the motherboard is the heart, buses are the veins and arteries, sending data to and from the motherboard.</p>
+            <br/>
+            <h3>The CPU</h3>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/8/86/Cyrix_IBM_CPU_6x86MX_PR200_bottom.jpg" style="width:30%; float:left; padding-right:10px;"/>
+            <p>The CPU, or <b>C</b>entral <b>P</b>rocessing <b>U</b>nit, does most of the calculations for the computer. In this way, it is the brains of the computer. CPU's are very small and attach directly to your motherboard. Because of the large amount of computing they do, CPU's generally have small fans and heat sinks right on them!</p>
+            <h3>The RAM</h3>
+            <img src="http://pad2.whstatic.com/images/thumb/9/97/Buy-RAM-for-Your-iMac-Step-2Bullet1.jpg/670px-Buy-RAM-for-Your-iMac-Step-2Bullet1.jpg" style="width:30%; float:left; padding-right:10px;"/>
+            <p>The RAM, or <b>R</b>andom <b>A</b>ccess <b>M</b>emory, is un-saveable memory that can be accessed on the fly by any program. It is meant to story data temporarily, but do so very quickly. Any changes to a document made before it is saved is stored here. This is because data can be stored more easily if there is power, but saving data when the power turns off is much harder and time consuming.</p>
+            <h3>The Hard Drive</h3>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/f/f8/Laptop-hard-drive-exposed.jpg" style="width:30%; float:left; padding-right:10px;"/>
+            <p>The hard drive is a disk inside of your computer that can be rewritten to permanently store data on your computer, even when the power turns off. Because data has to be physically written to the hard drive, it takes some time for data to be stored or read, which is why RAM is used for quicker storeage.</p>
+            <br/>
+            <h3>The Power Supply</h3>
+            <img src="http://cdn.instructables.com/FLT/ZG2O/H130PCT8/FLTZG2OH130PCT8.LARGE.jpg" style="width:20%; float:left; padding-right:10px;"/>
+            <p>The power supply is what gives power to the components of the computer. It takes in electricity, and rations it to all of the componets that need it. The more powerful the parts of your computer are, more electricity your power supply need to convert to keep your computer running smoothly.</p>
+            <br/>
+            <h3>Other Stuff</h3>
+            <p>Other important parts of your computer are the mouse, keyboard, and monitor. The mouse is a handheld device, generally with two buttons on it. It can be moved around on a flat surface to move your cursor on the computer. It can be used to quickly influence graphical components in a simple way, and is required to use most programs. A keyboard is a pad of buttons that can be pushed to type out words or commands. Getting good with typing and learning keyboard shortcuts is required for quickly navigating computers. Finally, the monitor is a screen that quickly refreshes to display images or text to the user. Most monitors Are LCD, or <b>L</b>iquid <b>C</b>rystal <b>D</b>isplay, and block light in small amounts to change the colors of the screen. Without a monitor, it is next to impossible to know what you are doing on a computer.</p>
+        </div> <!--Hardware-->
+    </div>
+    <script>
+function pageChange(page) {//changes to the input
+document.getElementById("main1").innerHTML=document.getElementById(page).innerHTML;
+}
+document.getElementById("btnMe").addEventListener("dblclick" , function() {
+document.getElementById("main1").innerHTML="01001001 01110100 00100111 01110011 00100000 01100001 00100000 01110011 01100101 01100011 01110010 01100101 01110100 00100000 01110100 01101111 00100000 01100101 01110110 01100101 01110010 01111001 01100010 01101111 01100100 01111001 00101110";
+        });
+    </script>
+</body>
+</html>
