@@ -14,10 +14,11 @@
                     <button onclick='pageChange(1)' id="btnMe" class="normButton">Home</button>
                     <button onclick="pageChange(2)" class="normButton">About HTML</button>
                     <button onclick="pageChange(4)" class ="normButton">Hardware</button>
-                    <button onclick="pageChange(3)" class="normButton">About me</button> <br>
-                    <button class="normButton"><a href=spacegame.html>Space Game</a></button>
-                    <button class="normButton"><a href=mouseGameIndex.html>Mouse Game</a></button>
-                    <button class="normButton"><a href=shooter.html>Shooter Game</a></button>
+                    <button onclick="pageChange(3)" class="normButton">About me</button>
+                    <button onclick="pageChange(5)" class="normButton">Vindinium</button> <br>
+                    <button class="normButton"><a target="_blank" href=spacegame.html>Space Game</a></button>
+                    <button class="normButton"><a target="_blank" href=mouseGameIndex.html>Mouse Game</a></button>
+                    <button class="normButton"><a target="_blank" href=shooter.html>Shooter Game</a></button>
                 </td>
             </tr>
         </table>
@@ -75,7 +76,7 @@
                 <li>Illusion of Gaia</li>
                 <li>Legend of Zelda</li>
             </ol>
-            <p>One of the greatest things about Cave Story is that it's free! You can legally download it <a href="http://www.cavestory.org/download/cave-story.php">here</a>, but you also need to get the English patch, unless you speak Japanese. To play Legend of Zelda or Illusion of Gaia, you'll need a NES or SNES respectively. Unless you want to use other slightly less legal methods.</p>
+            <p>One of the greatest things about Cave Story is that it's free! You can legally download it <a target="_blank" href="http://www.cavestory.org/download/cave-story.php">here</a>, but you also need to get the English patch, unless you speak Japanese. To play Legend of Zelda or Illusion of Gaia, you'll need a NES or SNES respectively. Unless you want to use other slightly less legal methods.</p>
             <h3>Why do I Program?</h3>
             <p>I enjoy programming because it's a way of making whatever I want. With a bit of code, I can create my own worlds, that people can come in to, and play in. I'm mainly interested in programming so that I can program games, but I can also code simple simulations to quickly solve equations. But most of all, I find programing fun, and the results .</p>
             <p></p>
@@ -104,6 +105,12 @@
             <h3>Other Stuff</h3>
             <p>Other important parts of your computer are the mouse, keyboard, and monitor. The mouse is a handheld device, generally with two buttons on it. It can be moved around on a flat surface to move your cursor on the computer. It can be used to quickly influence graphical components in a simple way, and is required to use most programs. A keyboard is a pad of buttons that can be pushed to type out words or commands. Getting good with typing and learning keyboard shortcuts is required for quickly navigating computers. Finally, the monitor is a screen that quickly refreshes to display images or text to the user. Most monitors Are LCD, or <b>L</b>iquid <b>C</b>rystal <b>D</b>isplay, and block light in small amounts to change the colors of the screen. Without a monitor, it is next to impossible to know what you are doing on a computer.</p>
         </div> <!--Hardware-->
+        <div id="5">
+            <h3>Vindinium Bot</h3>
+            <p>Vindinium is a game where 4 people make a bot to fight in an arena, putting each others coding skills to the test. The mugs give a player 50 health at the cost of 2 gold, mines give you 1 gold per turn, at the cost of 20 health to capture. Players deal 20 damage to others players who are right next to them.</p>
+            <p>My bot uses a complex combat pattern to make sure it will have the upper hand in any batte it gets itself into. It will wait for a player to be within 3 tiles before moving in, meaning it will always have the damage advantage. My bot will also move towards a bot 3 tiles away if it is possible to kill him. This behavior makes my bot a great fighter, allowing me to win many tough matches. <a target="_blank" href="http://24.6.28.217:9000/r8dwlo31">This game</a> shows the power of my bot in combat, as he is able to fight off 2-3 bots at the same time.</p>
+            <p>Another thing my bot does is search for the optimal mine instead of the closest. Most other bots go for the closest mine, and this can often get them killed. My bot, however, will go towards the cloesest mine that has nobody with more health. This means that my bot will never commit suicicde while going for a mine (probably). This gives me a significant edge towards other bots.</p>
+        </div><!--Vindinium-->
     </div>
     <script>
 function pageChange(page) {//changes to the input

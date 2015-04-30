@@ -20,7 +20,7 @@
 
 
 .normButton:hover {
-    background: #16166E;
+    background: #262A8E;
 }
 
 
@@ -31,4 +31,14 @@
 
 h3 {
     font-size: 1.5em;
+}
+
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: lightblue;
+    background: none;
+}
+a:hover {
+    background-color: #262A8E;
 }
